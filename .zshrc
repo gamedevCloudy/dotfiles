@@ -1,6 +1,7 @@
 export ZSH="$HOME/.oh-my-zsh"
 export PATH="/opt/homebrew/bin:$PATH"
-
+export PYTHONPATH=$PYTHONPATH/usr/local/lib/python3.11/site-packages
+export PATH="/usr/local/lib:$PATH"
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -40,3 +41,7 @@ eval export PATH="$PATH:~/.local/bin:$PATH"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# bun completions
+[ -s "/Users/aayushchaudhary/.bun/_bun" ] && source "/Users/aayushchaudhary/.bun/_bun"
+
+alias python=/usr/local/bin/python3

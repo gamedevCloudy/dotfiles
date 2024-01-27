@@ -40,3 +40,14 @@ Inspired by the vibrant dotfiles community on GitHub. Thanks to all the contribu
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+```
+1. Click the Apple Icon. 
+2. Click "System Settings"
+3. Scroll down to find "Privacy & Security". 
+4. Under "Privacy" section, find "Accessibility". 
+5. Now, run "yabai --start-service" in terminal. 
+6. This will create a new dialogue, click "Open Systems Settings". 
+7. In the list, toggle "Yabai."
+8. Confirm 
+```
